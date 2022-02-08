@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+main {
+    background-image: url(https://wallpaperaccess.com/full/3077658.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+    font-family: 'Cinzel', serif;
+  }
+  h1 {
+      color: maroon;
+  }
+  h2 {
+      color: yellow;
+  }
+  p {
+      color: black;
+  }
+  header {
+    text-align: center;
+   margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.navButton{
+font-size: 15pt;
+   text-decoration: none;
+   color:rgb(150, 33, 33)
+}
+footer {
+    display: grid;
+grid-template-columns: 50% 50%;
+background-color: black;
+color: white;
+
+}
+
+
+footer p {
+    color: white;
+    grid-column: 1/2;
+margin-left: 5%;
+  margin-left: 25%;
+padding-top: 10%;}
+
+.links {
+ grid-column: 2/3;
+ margin-left: 25%;
+padding-top: 10%;
+}
+@media (max-width: 600px) {
+    
+    p {
+        color: rgb(255, 255, 255);
+    }
+
+main {
+    background-color: black;
+    background-image: none;
+}
+
+}footer {
+    display: block;
+}

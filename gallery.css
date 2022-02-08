@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: 'Cinzel', serif;
+}
+
+section {
+    display: flex;
+    flex-wrap:wrap ;
+    
+}
+
+footer {
+    display: grid;
+grid-template-columns: 50% 50%;
+background-color: black;
+color: white;
+
+}
+
+
+footer p {
+    color: white;
+    grid-column: 1/2;
+margin-left: 5%;
+  margin-left: 25%;
+padding-top: 10%;}
+
+.links {
+ grid-column: 2/3;
+ margin-left: 25%;
+padding-top: 10%;
+}
+@media (max-width: 600px) {
+    h1 {
+        color: maroon
+    }
+    p {
+        color: rgb(255, 255, 255);
+    }
+
+main {
+    background-color: black;
+    background-image: none;
+}
+
+}footer {
+    display: block;
+}
