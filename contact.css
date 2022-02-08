@@ -110,14 +110,15 @@ footer p {
     color: white;
     grid-column: 1/2;
 margin-left: 5%;
-  margin-left: 25%;
+  margin-left: 15%;
 padding-top: 10%;}
 
 .links {
  grid-column: 2/3;
- margin-left: 25%;
+ /* margin-left: 25%; */
 padding-top: 10%;
 }
+
 @media (max-width: 600px) {
     
     p {
